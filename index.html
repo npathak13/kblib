@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marian Sutherland Kirby Library — Mountain Top, PA</title>
+  <meta name="description" content="Marian Sutherland Kirby Library in Mountain Top, PA. Part of the Luzerne County Library System. Books, programs, events, and digital resources — all free with your library card.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- Top Bar -->
+<div class="top-bar">
+  <div class="container">
+    <div class="top-bar-hours">
+      <span>📍 35 Kirby Avenue, Mountain Top, PA 18707</span>
+    </div>
+    <div class="top-bar-contact">
+      <a href="tel:570-474-9313">📞 570-474-9313</a>
+      <a href="mailto:info@kirbylib.org">✉ info@kirbylib.org</a>
+      <a href="https://luzernelibraries.org" target="_blank" rel="noopener">Luzerne County Library System ↗</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="site-logo">
+      <div class="site-logo-icon">📚</div>
+      <h1>
+        Kirby Library
+        <small>Marian Sutherland Kirby Library &bull; Mountain Top, PA</small>
+      </h1>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.main-nav').classList.toggle('open')">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://luzerne.aspendiscovery.org" target="_blank" rel="noopener" class="nav-cta">Search Catalog</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Announcement Banner -->
+<div class="announcement">
+  <div class="container">
+    📖 <strong>Winter Reading Challenge</strong> is underway! Sign up at the front desk or <a href="programs.html#reading-challenge">learn more</a>.
+  </div>
+</div>
+
+<!-- Hero -->
+<main id="main">
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h2>Your Library. Your Community.</h2>
+      <p>Free access to books, digital resources, programs for all ages, and so much more — all with your Luzerne County library card.</p>
+
+      <!-- Catalog Search -->
+      <div class="catalog-search">
+        <label for="catalog-query">Search the Library Catalog</label>
+        <form class="catalog-search-bar" action="https://luzerne.aspendiscovery.org/Union/Search" method="GET" target="_blank">
+          <input type="hidden" name="searchSource" value="local">
+          <input type="text" id="catalog-query" name="lookfor" placeholder="Search for books, movies, music, and more…" autocomplete="off">
+          <button type="submit">Search</button>
+        </form>
+        <p class="catalog-search-hint">
+          Powered by the <a href="https://luzerne.aspendiscovery.org" target="_blank" rel="noopener">Luzerne County Library System catalog</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Quick Links -->
+<section class="quick-links">
+  <div class="container">
+    <div class="quick-links-grid">
+
+      <a href="about.html#library-card" class="quick-link-card">
+        <div class="quick-link-icon">🪪</div>
+        <div>
+          <h3>Get a Library Card</h3>
+          <p>Free for all Luzerne County residents. Apply in person or online.</p>
+        </div>
+      </a>
+
+      <a href="programs.html" class="quick-link-card">
+        <div class="quick-link-icon">📅</div>
+        <div>
+          <h3>Programs &amp; Events</h3>
+          <p>Storytime, book clubs, crafts, movie nights, and more for all ages.</p>
+        </div>
+      </a>
+
+      <a href="resources.html" class="quick-link-card">
+        <div class="quick-link-icon">💻</div>
+        <div>
+          <h3>Online Resources</h3>
+          <p>eBooks, databases, language learning, and career tools — free from home.</p>
+        </div>
+      </a>
+
+      <a href="resources.html#digital-services" class="quick-link-card">
+        <div class="quick-link-icon">📱</div>
+        <div>
+          <h3>eBooks &amp; Digital</h3>
+          <p>Borrow eBooks, audiobooks, and stream movies with your library card.</p>
+        </div>
+      </a>
+
+      <a href="about.html#volunteer" class="quick-link-card">
+        <div class="quick-link-icon">🤝</div>
+        <div>
+          <h3>Volunteer</h3>
+          <p>Adults and teens welcome. A great way to connect with your community.</p>
+        </div>
+      </a>
+
+      <a href="about.html#donate" class="quick-link-card">
+        <div class="quick-link-icon">💛</div>
+        <div>
+          <h3>Support the Library</h3>
+          <p>The Kirby Library is a 501(c)(3) nonprofit. Every donation makes a difference.</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Hours & Info -->
+<section class="section section-alt" id="hours">
+  <div class="container">
+    <div class="info-grid">
+
+      <div>
+        <div class="section-header">
+          <h2>Hours &amp; Location</h2>
+          <span class="section-line"></span>
+        </div>
+
+        <div class="hours-card">
+          <div class="hours-card-header">Library Hours</div>
+          <table class="hours-table">
+            <tr class="closed">
+              <td>Monday</td>
+              <td>Closed</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>9:00 AM – 8:00 PM</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>9:00 AM – 8:00 PM</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>9:00 AM – 5:00 PM</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>9:00 AM – 5:00 PM</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>9:00 AM – 4:00 PM</td>
+            </tr>
+            <tr class="closed">
+              <td>Sunday</td>
+              <td>Closed</td>
+            </tr>
+          </table>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <p style="color: var(--color-text-light); font-size: 0.9rem; line-height: 1.6;">
+            <strong>Address:</strong> 35 Kirby Avenue, Mountain Top, PA 18707<br>
+            <strong>Phone:</strong> <a href="tel:570-474-9313">570-474-9313</a><br>
+            <strong>Fax:</strong> 570-474-2587<br>
+            <strong>Email:</strong> <a href="mailto:info@kirbylib.org">info@kirbylib.org</a>
+          </p>
+          <a href="https://www.google.com/maps/place/Marian+Sutherland+Kirby+Library/@41.1367,-75.8997,17z" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top: 12px;">
+            📍 Get Directions
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div class="section-header">
+          <h2>Upcoming Programs</h2>
+          <span class="section-line"></span>
+        </div>
+
+        <div class="program-card" style="margin-bottom: 16px;">
+          <span class="program-card-tag tag-children">Children</span>
+          <h3>Winter Storytime</h3>
+          <div class="program-time">📅 Wednesdays at 10:30 AM</div>
+          <p>Stories, songs, and a craft in the Children's Wing. Ages 2–5. No registration needed — just stop in!</p>
+        </div>
+
+        <div class="program-card" style="margin-bottom: 16px;">
+          <span class="program-card-tag tag-children">Children</span>
+          <h3>Winter Reading Challenge</h3>
+          <div class="program-time">📅 Through February</div>
+          <p>Track your reading minutes and earn prizes! Paper logs available at the front desk.</p>
+        </div>
+
+        <div class="program-card" style="margin-bottom: 16px;">
+          <span class="program-card-tag tag-adults">Adults</span>
+          <h3>Socrates Café</h3>
+          <div class="program-time">📅 4th Wednesday of the month, 6:00 PM</div>
+          <p>Lively philosophical conversation in the reading room. All inquisitive minds welcome.</p>
+        </div>
+
+        <a href="programs.html" class="btn btn-primary" style="margin-top: 8px;">View All Programs →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Donate Banner -->
+<section class="donate-banner">
+  <div class="container">
+    <h2>Support Your Library</h2>
+    <p>The Kirby Library is a 501(c)(3) nonprofit, not supported by dedicated local or state taxes. Your donations are fully tax-deductible and directly fund programs, materials, and services.</p>
+    <a href="about.html#donate" class="btn">Make a Donation</a>
+  </div>
+</section>
+
+<!-- Resources Preview -->
+<section class="section" id="resources-preview">
+  <div class="container">
+    <div class="section-header">
+      <h2>Free Digital Resources</h2>
+      <p>Available 24/7 with your Luzerne County library card — no need to visit the building.</p>
+      <span class="section-line"></span>
+    </div>
+
+    <div class="resources-grid">
+
+      <a href="https://www.yourcloudlibrary.com" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">eBooks &amp; Audiobooks</span>
+        <h3>cloudLibrary</h3>
+        <p>Borrow eBooks and audiobooks on your phone, tablet, or computer.</p>
+      </a>
+
+      <a href="https://www.creativebug.com/lib/luzernelibraries" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">Arts &amp; Crafts</span>
+        <h3>Creativebug</h3>
+        <p>Thousands of video classes on painting, sewing, knitting, and more.</p>
+      </a>
+
+      <a href="https://www.mangolanguages.com" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">Language Learning</span>
+        <h3>Mango Languages</h3>
+        <p>Learn 70+ languages with interactive lessons and real-world conversations.</p>
+      </a>
+
+      <a href="https://app.bluerecruit.us/library/welcome/wilkes-barre" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">Career &amp; Trades</span>
+        <h3>BlueCareer</h3>
+        <p>Explore 100+ skilled trades, find trade schools, and build career knowledge.</p>
+      </a>
+
+      <a href="https://www.powerlibrary.org/e-resources/?all=y&ID=PL1533" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">Research</span>
+        <h3>POWER Library</h3>
+        <p>Pennsylvania's electronic library — newspapers, journals, encyclopedias, and more.</p>
+      </a>
+
+      <a href="https://infoweb.newsbank.com/apps/news/?p=NewsBank" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">Newspapers</span>
+        <h3>NewsBank</h3>
+        <p>Full-text access to local and national newspapers, current and archived.</p>
+      </a>
+
+    </div>
+
+    <div style="text-align: center; margin-top: 28px;">
+      <a href="resources.html" class="btn btn-outline">View All Resources →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Chat CTA -->
+<section class="section section-alt" style="text-align: center; padding: 40px 0;">
+  <div class="container">
+    <h2 style="font-size: 1.4rem; margin-bottom: 10px;">Need Help?</h2>
+    <p style="color: var(--color-text-light); max-width: 480px; margin: 0 auto 20px;">
+      Have a question about your account, need a book recommendation, or want research help?
+    </p>
+    <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+      <a href="https://luzernelibraries.org/chat-with-a-librarian/" target="_blank" rel="noopener" class="btn btn-primary">💬 Chat with a Librarian</a>
+      <a href="tel:570-474-9313" class="btn btn-outline">📞 Call Us: 570-474-9313</a>
+      <a href="mailto:info@kirbylib.org" class="btn btn-outline">✉ Email Us</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-col">
+        <h4>Kirby Library</h4>
+        <p>Marian Sutherland Kirby Library<br>
+        35 Kirby Avenue<br>
+        Mountain Top, PA 18707</p>
+        <p><a href="tel:570-474-9313">570-474-9313</a><br>
+        <a href="mailto:info@kirbylib.org">info@kirbylib.org</a></p>
+        <p style="margin-top: 12px; font-size: 0.82rem;">
+          A proud member of the<br>
+          <a href="https://luzernelibraries.org" target="_blank" rel="noopener">Luzerne County Library System</a>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <ul>
+          <li>Mon: Closed</li>
+          <li>Tue: 9 AM – 8 PM</li>
+          <li>Wed: 9 AM – 8 PM</li>
+          <li>Thu: 9 AM – 5 PM</li>
+          <li>Fri: 9 AM – 5 PM</li>
+          <li>Sat: 9 AM – 4 PM</li>
+          <li>Sun: Closed</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="https://luzerne.aspendiscovery.org" target="_blank" rel="noopener">Search Catalog</a></li>
+          <li><a href="programs.html">Programs &amp; Events</a></li>
+          <li><a href="resources.html">Online Resources</a></li>
+          <li><a href="about.html#library-card">Get a Library Card</a></li>
+          <li><a href="about.html#volunteer">Volunteer</a></li>
+          <li><a href="about.html#donate">Donate</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="resources.html#digital-services">eBooks &amp; Digital</a></li>
+          <li><a href="https://luzernelibraries.org/chat-with-a-librarian/" target="_blank" rel="noopener">Chat with a Librarian</a></li>
+          <li><a href="resources.html">POWER Library</a></li>
+          <li><a href="about.html#meeting-rooms">Meeting Rooms</a></li>
+          <li><a href="about.html#services">Fax, Copy &amp; Print</a></li>
+          <li><a href="about.html#internet">Public Computers</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Marian Sutherland Kirby Library. A 501(c)(3) nonprofit organization.</p>
+      <p>
+        <a href="https://luzernelibraries.org" target="_blank" rel="noopener">Luzerne County Library System</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Highlight today's hours row
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const today = days[new Date().getDay()];
+  document.querySelectorAll('.hours-table tr').forEach(row => {
+    if (row.querySelector('td')?.textContent.trim() === today) {
+      row.classList.add('hours-today');
+    }
+  });
+</script>
+
+</body>
+</html>

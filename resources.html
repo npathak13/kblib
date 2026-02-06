@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Resources — Kirby Library</title>
+  <meta name="description" content="Free online resources available with your Luzerne County library card. eBooks, audiobooks, databases, language learning, career tools, and more.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- Top Bar -->
+<div class="top-bar">
+  <div class="container">
+    <div class="top-bar-hours">
+      <span>📍 35 Kirby Avenue, Mountain Top, PA 18707</span>
+    </div>
+    <div class="top-bar-contact">
+      <a href="tel:570-474-9313">📞 570-474-9313</a>
+      <a href="mailto:info@kirbylib.org">✉ info@kirbylib.org</a>
+      <a href="https://luzernelibraries.org" target="_blank" rel="noopener">Luzerne County Library System ↗</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="site-logo">
+      <div class="site-logo-icon">📚</div>
+      <h1>
+        Kirby Library
+        <small>Marian Sutherland Kirby Library &bull; Mountain Top, PA</small>
+      </h1>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.main-nav').classList.toggle('open')">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="resources.html" class="active">Resources</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://luzerne.aspendiscovery.org" target="_blank" rel="noopener" class="nav-cta">Search Catalog</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- Page Header -->
+<section class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Online Resources</div>
+    <h2>Online Resources</h2>
+    <p>Free 24/7 access with your Luzerne County library card — no visit required.</p>
+  </div>
+</section>
+
+<!-- Catalog Search -->
+<section class="section" id="catalog">
+  <div class="container">
+    <div class="section-header">
+      <h2>Search the Catalog</h2>
+      <p>Find books, DVDs, audiobooks, music, and more across all Luzerne County libraries.</p>
+      <span class="section-line"></span>
+    </div>
+
+    <div style="max-width: 620px;">
+      <form class="catalog-search-bar" action="https://luzerne.aspendiscovery.org/Union/Search" method="GET" target="_blank" style="border: 2px solid var(--color-border); border-radius: var(--radius);">
+        <input type="hidden" name="searchSource" value="local">
+        <input type="text" name="lookfor" placeholder="Search for books, movies, music, and more…" style="border: none; border-radius: var(--radius) 0 0 var(--radius);">
+        <button type="submit" style="border-radius: 0 var(--radius) var(--radius) 0;">Search</button>
+      </form>
+      <p style="margin-top: 10px; font-size: 0.88rem; color: var(--color-text-muted);">
+        Results include all Luzerne County Library System branches. Items can be requested and picked up at Kirby Library.
+        You can also <a href="https://luzerne.aspendiscovery.org" target="_blank" rel="noopener">browse the full catalog</a> directly.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Digital Services -->
+<section class="section section-alt" id="digital-services">
+  <div class="container">
+    <div class="section-header">
+      <h2>eBooks, Audiobooks &amp; Streaming</h2>
+      <p>Borrow digital content on your phone, tablet, or computer.</p>
+      <span class="section-line"></span>
+    </div>
+
+    <div class="resources-grid">
+
+      <a href="https://www.yourcloudlibrary.com" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">eBooks &amp; Audiobooks</span>
+        <h3>cloudLibrary</h3>
+        <p>Borrow eBooks and audiobooks instantly. Available on iOS, Android, and desktop. Just sign in with your library card.</p>
+      </a>
+
+      <a href="https://www.hoopladigital.com" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">Movies, Music &amp; More</span>
+        <h3>Hoopla Digital</h3>
+        <p>Stream or download movies, TV shows, music, comics, eBooks, and audiobooks. Instantly available — no waiting.</p>
+      </a>
+
+      <a href="https://libbyapp.com" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">eBooks &amp; Audiobooks</span>
+        <h3>Libby by OverDrive</h3>
+        <p>The popular library reading app. Browse, borrow, and read eBooks and audiobooks right from your device.</p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Learning & Career -->
+<section class="section" id="learning">
+  <div class="container">
+    <div class="section-header">
+      <h2>Learning &amp; Career</h2>
+      <p>Skill-building, language learning, and career tools — all free.</p>
+      <span class="section-line"></span>
+    </div>
+
+    <div class="resources-grid">
+
+      <a href="https://www.mangolanguages.com" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">Language Learning</span>
+        <h3>Mango Languages</h3>
+        <p>Learn 70+ languages including Spanish, Mandarin, French, German, Japanese, and ESL courses. Interactive lessons with real-world conversations.</p>
+      </a>
+
+      <a href="https://www.creativebug.com/lib/luzernelibraries" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">Arts &amp; Crafts</span>
+        <h3>Creativebug</h3>
+        <p>Thousands of award-winning video classes on painting, drawing, sewing, knitting, paper crafts, and more. New classes added daily.</p>
+      </a>
+
+      <a href="https://app.bluerecruit.us/library/welcome/wilkes-barre" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">Career &amp; Trades</span>
+        <h3>BlueCareer</h3>
+        <p>Explore 100+ skilled trades, connect with trade schools, and access training resources for career transitions.</p>
+      </a>
+
+      <a href="https://www.learningexpresshub.com" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">Test Prep &amp; Skills</span>
+        <h3>Learning Express Library</h3>
+        <p>Interactive practice tests for GED, SAT, civil service exams, U.S. citizenship, and professional licensing. Plus career resources and resume building.</p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Research & Reference -->
+<section class="section section-alt" id="research">
+  <div class="container">
+    <div class="section-header">
+      <h2>Research &amp; Reference</h2>
+      <p>Newspapers, encyclopedias, journals, and Pennsylvania-specific resources.</p>
+      <span class="section-line"></span>
+    </div>
+
+    <div class="resources-grid">
+
+      <a href="https://www.powerlibrary.org/e-resources/?all=y&ID=PL1533" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">Pennsylvania</span>
+        <h3>POWER Library</h3>
+        <p>Pennsylvania's electronic library. Access newspapers, magazines, journals, encyclopedias, photos, maps, and primary source documents.</p>
+      </a>
+
+      <a href="https://infoweb.newsbank.com/apps/news/?p=NewsBank" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">Newspapers</span>
+        <h3>NewsBank</h3>
+        <p>Full-text access to local and national newspapers, both current editions and historical archives.</p>
+      </a>
+
+      <a href="https://newsreel.co/download" target="_blank" rel="noopener" class="resource-card">
+        <span class="resource-badge">News</span>
+        <h3>Newsreel</h3>
+        <p>Curated news from trusted sources, organized by topic. Download the app and connect with your library card.</p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- In-Library Services -->
+<section class="section" id="in-library">
+  <div class="container">
+    <div class="section-header">
+      <h2>In-Library Technology</h2>
+      <p>Available during regular library hours.</p>
+      <span class="section-line"></span>
+    </div>
+
+    <div class="resources-grid" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));">
+
+      <div class="resource-card">
+        <span class="resource-badge">Free</span>
+        <h3>Public Computers</h3>
+        <p>Internet access and productivity software. Available on a first-come, first-served basis.</p>
+      </div>
+
+      <div class="resource-card">
+        <span class="resource-badge">Free</span>
+        <h3>Wi-Fi</h3>
+        <p>Free wireless internet access throughout the library. Bring your own device.</p>
+      </div>
+
+      <div class="resource-card">
+        <span class="resource-badge">Available</span>
+        <h3>Printing, Copying &amp; Fax</h3>
+        <p>Black and white and color printing, photocopying, and fax services. Ask at the front desk for pricing.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Help CTA -->
+<section class="section section-alt" style="text-align: center;">
+  <div class="container">
+    <h2 style="font-size: 1.4rem; margin-bottom: 10px;">Need Help Accessing a Resource?</h2>
+    <p style="color: var(--color-text-light); max-width: 520px; margin: 0 auto 24px;">
+      Library staff can help you set up any of these services on your device. Stop in, call, or chat online.
+    </p>
+    <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+      <a href="https://luzernelibraries.org/chat-with-a-librarian/" target="_blank" rel="noopener" class="btn btn-primary">💬 Chat with a Librarian</a>
+      <a href="tel:570-474-9313" class="btn btn-outline">📞 Call: 570-474-9313</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Kirby Library</h4>
+        <p>Marian Sutherland Kirby Library<br>35 Kirby Avenue<br>Mountain Top, PA 18707</p>
+        <p><a href="tel:570-474-9313">570-474-9313</a><br><a href="mailto:info@kirbylib.org">info@kirbylib.org</a></p>
+        <p style="margin-top: 12px; font-size: 0.82rem;">A proud member of the<br><a href="https://luzernelibraries.org" target="_blank" rel="noopener">Luzerne County Library System</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <ul>
+          <li>Mon: Closed</li>
+          <li>Tue: 9 AM – 8 PM</li>
+          <li>Wed: 9 AM – 8 PM</li>
+          <li>Thu: 9 AM – 5 PM</li>
+          <li>Fri: 9 AM – 5 PM</li>
+          <li>Sat: 9 AM – 4 PM</li>
+          <li>Sun: Closed</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="https://luzerne.aspendiscovery.org" target="_blank" rel="noopener">Search Catalog</a></li>
+          <li><a href="programs.html">Programs &amp; Events</a></li>
+          <li><a href="resources.html">Online Resources</a></li>
+          <li><a href="about.html#library-card">Get a Library Card</a></li>
+          <li><a href="about.html#volunteer">Volunteer</a></li>
+          <li><a href="about.html#donate">Donate</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="resources.html#digital-services">eBooks &amp; Digital</a></li>
+          <li><a href="https://luzernelibraries.org/chat-with-a-librarian/" target="_blank" rel="noopener">Chat with a Librarian</a></li>
+          <li><a href="resources.html">POWER Library</a></li>
+          <li><a href="about.html#services">Fax, Copy &amp; Print</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Marian Sutherland Kirby Library. A 501(c)(3) nonprofit organization.</p>
+      <p><a href="https://luzernelibraries.org" target="_blank" rel="noopener">Luzerne County Library System</a></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
