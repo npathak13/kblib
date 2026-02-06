@@ -84,3 +84,11 @@ All integrations are simple links — no API keys, no backend, no accounts neede
 ## What This Replaces
 
 The previous site (`kirbylib.org`) was built with HTML framesets, table-based layouts, and image-based navigation from the late 1990s. Many images were broken, making the site effectively unusable. This replacement contains all the same information in a modern, accessible, mobile-friendly format.
+
+## Disclaimer
+This is an educational/community project built by a community member on their own time, for free. It is not affiliated with, endorsed by, or supported by the Marian Sutherland Kirby Library, the Luzerne County Library System, or any government entity.
+All content — including hours, program schedules, event details, contact information, and resource links — was gathered from publicly available sources and may be outdated, inaccurate, or incomplete. Nothing on this site should be relied upon without independent verification by library staff.
+This project comes with no warranty, no support, no maintenance obligation, and no liability whatsoever. It is provided entirely as-is. The author assumes no responsibility for the accuracy of the content or any consequences of its use.
+If the library or any affiliated organization wishes to use, modify, or deploy this code, they have full permission to do so (see License below), but they are solely responsible for verifying and maintaining all content.
+## License
+MIT License — the Marian Sutherland Kirby Library and the Luzerne County Library System are free to use, modify, and deploy this code however they see fit, no strings attached.ArtifactsDownload allReadmeDocument · MD AboutCode · HTML StylesCode · CSS IndexCode · HTML Kirby library siteZIP ProgramsCode · HTML ResourcesCode · HTML 
