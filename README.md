@@ -91,4 +91,4 @@ All content — including hours, program schedules, event details, contact infor
 This project comes with no warranty, no support, no maintenance obligation, and no liability whatsoever. It is provided entirely as-is. The author assumes no responsibility for the accuracy of the content or any consequences of its use.
 If the library or any affiliated organization wishes to use, modify, or deploy this code, they have full permission to do so (see License below), but they are solely responsible for verifying and maintaining all content.
 ## License
-MIT License — the Marian Sutherland Kirby Library and the Luzerne County Library System are free to use, modify, and deploy this code however they see fit, no strings attached.ArtifactsDownload allReadmeDocument · MD AboutCode · HTML StylesCode · CSS IndexCode · HTML Kirby library siteZIP ProgramsCode · HTML ResourcesCode · HTML 
+MIT License — the Marian Sutherland Kirby Library and the Luzerne County Library System are free to use, modify, and deploy this code however they see fit, no strings attached.
